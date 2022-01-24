@@ -49,6 +49,7 @@ public class SortsTests {
 
         longListCorrect = new ArrayList<Integer>(longList);
         Collections.sort(longListCorrect);
+        Collections.reverse(longListCorrect);
     } 
 
     @Test
